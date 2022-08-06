@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'homeview',
     component: HomeView
   },
   {
@@ -14,6 +14,26 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/men',
+    name: 'men',
+    component: () => import('../views/Men.vue')
+  },
+  {
+    path: '/women',
+    name: 'women',
+    component: () => import('../views/Women.vue')
+  },
+  {
+    path: '/kids',
+    name: 'kids',
+    component: () => import('../views/Kids.vue')
   }
 ]
 

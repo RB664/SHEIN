@@ -1,11 +1,6 @@
 <template>
-    <Navigation/>
-    
-    <!-- <Footing/> -->
-    
-    <router-view/>
-
- <footer class="fixed-bottom">
+    <div class="container">
+  <footer class="fixed-bottom">
         <div class="row">
         <div class="col-lg-6">
           <div class="row">
@@ -96,46 +91,47 @@
         </div>
       </div>
     </footer>
+    </div>
 </template>
 
 <style>
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50; */
-}
-/* 
-nav {
-  padding: 30px;
+#we-accept{
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
+#blackicons{
+  color: black;
+  margin-left: 10px;
+  font-size: 30px;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
+#grayicons{
+  color: rgb(65, 65, 65);
+  margin-left: 15px;
+  font-size: 30px;
+}
 
-/* header */
+#facebook{
+  color: black;
+  font-size: 30px;
+}
 
-/* footer */
+#flink{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-
+#flinks{
+  color: rgb(65, 65, 65);;
+}
 </style>
 
 <script>
-// @ is an alias to /src
-import Navigation from '@/components/Navigation.vue'
-import Footing from './components/Footing.vue'
-
 export default {
-  components: {
-    Navigation,
-    Footing
-}
+  name: 'Footing'
 }
 </script>
