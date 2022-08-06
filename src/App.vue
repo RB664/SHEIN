@@ -1,11 +1,9 @@
 <template>
     <Navigation/>
-    
-    <!-- <Footing/> -->
-    
     <router-view/>
 
- <footer class="fixed-bottom">
+  <div class="container">
+  <footer>
         <div class="row">
         <div class="col-lg-6">
           <div class="row">
@@ -96,6 +94,7 @@
         </div>
       </div>
     </footer>
+    </div>
 </template>
 
 <style>
@@ -105,6 +104,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50; */
+  height: 100vh;
 }
 /* 
 nav {
@@ -124,18 +124,48 @@ nav a.router-link-exact-active {
 
 /* footer */
 
+#we-accept{
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
 
+#blackicons{
+  color: black;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+#grayicons{
+  color: rgb(65, 65, 65);
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+#facebook{
+  color: black;
+  font-size: 30px;
+}
+
+#flink{
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#flinks{
+  color: rgb(65, 65, 65);;
+}
 </style>
 
 <script>
 // @ is an alias to /src
 import Navigation from '@/components/Navigation.vue'
-import Footing from './components/Footing.vue'
 
 export default {
   components: {
     Navigation,
-    Footing
 }
 }
 </script>

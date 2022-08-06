@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div id="home" class="container">
     <h1>#CAMPAINGS</h1>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -30,3 +30,6 @@
 </div>
 </div>
 </template>
+
+<style>
+</style>
