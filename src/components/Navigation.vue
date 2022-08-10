@@ -19,15 +19,15 @@
           <router-link class="nav-link" to="/kids">KIDS</router-link> 
         </li>
         <li class="nav-item">
-          <router-link id="logo2" class="nav-link" to="/">S H E I N</router-link> 
+          <router-link id="logo2" class="nav-link" to="/home">S H E I N</router-link> 
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/">
-            <i id="usericon" class="bi bi-person"></i>
+          <router-link class="nav-link" to="/register">
+            <i id="usericon" class="bi bi-person"></i> 
           </router-link> 
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/">
+          <router-link class="nav-link" to="/bag">
             <i id="bagicon" class="bi bi-bag"></i>
           </router-link> 
         </li>
@@ -39,20 +39,20 @@
 </template>
 
 <style>
-#logo{
-  width: 200px;
-  height: 30px;
-  margin-left: 300px;
-}
 #logo2{
   font-size: 40px;
   font-weight: 700;
   color: black;
-  padding-left: 450px;
+  margin-left: 390px;
 }
 
 #usericon{
   margin-left: 500px;
+}
+
+.nav-link{
+  font-size: 20px;
+  margin-top: 10px;
 }
 </style>
 
@@ -60,4 +60,6 @@
 export default {
   name: 'Navigation'
 }
+
+
 </script>

@@ -98,31 +98,7 @@
 </template>
 
 <style>
-#app {
-  /* font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50; */
-  height: 100vh;
-}
-/* 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
-
-/* header */
-
-/* footer */
+#app {}
 
 #we-accept{
   height: 50px;
@@ -162,6 +138,7 @@ nav a.router-link-exact-active {
 <script>
 // @ is an alias to /src
 import Navigation from '@/components/Navigation.vue'
+
 
 export default {
   components: {
