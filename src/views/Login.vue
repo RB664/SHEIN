@@ -10,6 +10,7 @@
             <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+        <div>Not registered click here to go back to <router-link to="/register">Register</router-link></div>
     </form>
 </div>
 </template>
@@ -17,8 +18,8 @@
 <style>
 #forml{
     width:500px;
-    height: 625px;
     text-align: center;
+    height: 625px;
     margin-left: 400px;
     margin-top: 100px;
     padding-top: 50px;
@@ -32,4 +33,5 @@
     width: 350px;
     margin-left: 65px;
 }
+
 </style>

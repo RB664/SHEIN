@@ -19,7 +19,7 @@
                 <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-            <div>Already registered click here to<router-link to="/login">Login</router-link></div>
+            <div>Already registered click here to <router-link to="/login">Login</router-link></div>
         </form>
     </div>
 </template>
@@ -28,9 +28,11 @@
 #form{
     width:500px;
     text-align: center;
+    height: 625px;
     margin-left: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 50px;
 }
 
 #usernameinput{

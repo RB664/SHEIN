@@ -47,6 +47,9 @@
         <img id="mensclothes" src="https://i.postimg.cc/fRmhj5qT/Mens-Clothes-5.png" alt="">
       </div>
     </div>
+  <div id="seemore">
+    <router-link to="/menproducts">See more-></router-link>
+  </div> 
   </div>
 </template>
 
@@ -82,5 +85,11 @@
   object-fit: cover;
   width: 100%;
   height: 500px;
+}
+
+#seemore{
+  padding-left: 600px;
+  margin-bottom: 30px;
+  font-size: x-large;
 }
 </style>

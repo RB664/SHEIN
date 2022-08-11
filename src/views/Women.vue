@@ -64,6 +64,9 @@
         <img id="womensclothes" src="https://i.postimg.cc/Xq2yzbVf/Womens-Clothes-5.png" alt="">
       </div>
     </div>
+    <div id="seemore">
+    <router-link to="/womenproducts">See more-></router-link>
+  </div> 
   </div>
 </template>
 
@@ -123,5 +126,11 @@
 #dazy{
   border: 1px solid black;
   height: 270px;
+}
+
+#seemore{
+  padding-left: 600px;
+  margin-bottom: 30px;
+  font-size: x-large;
 }
 </style>

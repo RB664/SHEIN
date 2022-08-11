@@ -44,14 +44,19 @@ const routes = [
   },
   {
     path: '/womenproducts',
-    name: 'register',
+    name: 'womanproducts',
     component: () => import('../views/WomenProducts.vue')
   },
   {
     path: '/kidproducts',
     name: 'kidproducts',
     component: () => import('../views/KidProducts.vue')
-  }
+  },
+  {
+    path: '/singleproduct',
+    name: 'singleproduct',
+    component: () => import('../views/SingleProduct.vue')
+  },
 ]
 
 const router = createRouter({

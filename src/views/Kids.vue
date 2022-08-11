@@ -48,6 +48,9 @@
         <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
       </div>
     </div>
+    <div id="seemore">
+    <router-link to="/kidproducts">See more-></router-link>
+  </div> 
   </div>
 </template>
 
@@ -84,5 +87,11 @@
   width: 100%;
   height: 500px;
   display: block;
+}
+
+#seemore{
+  padding-left: 600px;
+  margin-bottom: 30px;
+  font-size: x-large;
 }
 </style> 

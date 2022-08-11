@@ -2,19 +2,19 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img id="carouselimg" src="https://i.postimg.cc/gcN2vkn7/Tom-and-jerry.jpg" class="d-block" alt="...">
+      <img id="carouselimg1" src="https://i.postimg.cc/gcN2vkn7/Tom-and-jerry.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-item">
-      <img id="carouselimg" src="https://i.postimg.cc/Z0t79htx/artist.jpg" class="d-block" alt="...">
+      <img id="carouselimg1" src="https://i.postimg.cc/Z0t79htx/artist.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-item">
-      <img id="carouselimg" src="https://i.postimg.cc/wBjpxDkT/accessories.jpg" class="d-block" alt="...">
+      <img id="carouselimg1" src="https://i.postimg.cc/wBjpxDkT/accessories.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-item">
-      <img id="carouselimg" src="https://i.postimg.cc/bwzXL1WH/Back-to-school-style.jpg" class="d-block" alt="...">
+      <img id="carouselimg1" src="https://i.postimg.cc/bwzXL1WH/Back-to-school-style.jpg" class="d-block" alt="...">
     </div>
     <div class="carousel-item">
-      <img id="carouselimg" src="https://i.postimg.cc/gjv5H0KT/look-good-feel-good.jpg" class="d-block" alt="...">
+      <img id="carouselimg1" src="https://i.postimg.cc/gjv5H0KT/look-good-feel-good.jpg" class="d-block" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -45,6 +45,9 @@
         <img id="mensclothes" src="https://i.postimg.cc/fRmhj5qT/Mens-Clothes-5.png" alt="">
       </div>
     </div>
+     <div id="seemore">
+    <router-link to="/menproducts">See more-></router-link>
+  </div> 
     <div class="row">
       <h1 id="headings">Women</h1>
       <div id="womensclothesc1" class="col-lg-2">
@@ -63,6 +66,9 @@
         <img id="womensclothes" src="https://i.postimg.cc/Xq2yzbVf/Womens-Clothes-5.png" alt="">
       </div>
     </div>
+    <div id="seemore">
+    <router-link to="/womenproducts">See more-></router-link>
+  </div> 
     <div class="row">
       <h1 id="headings">Kids</h1>
       <div id="kidsclothesc1" class="col-lg-2">
@@ -81,12 +87,14 @@
         <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
       </div>
     </div>
+    <div id="seemore">
+    <router-link to="/kidproducts">See more-></router-link>
+  </div> 
   </div>
-  <Footing/>
 </template>
 
 <style>
-#carouselimg{
+#carouselimg1{
   width: 100%;
   height: 500px;
   object-fit: cover;
@@ -149,3 +157,8 @@
 }
 </style>
 
+<script>
+export default {
+  name: 'home'
+}
+</script>
