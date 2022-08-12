@@ -45,7 +45,7 @@
         <img id="mensclothes" src="https://i.postimg.cc/fRmhj5qT/Mens-Clothes-5.png" alt="">
       </div>
     </div>
-     <div id="seemore">
+     <div id="seemore" class="container">
     <router-link to="/menproducts">See more-></router-link>
   </div> 
     <div class="row">
@@ -66,7 +66,7 @@
         <img id="womensclothes" src="https://i.postimg.cc/Xq2yzbVf/Womens-Clothes-5.png" alt="">
       </div>
     </div>
-    <div id="seemore">
+    <div id="seemore" clas="container">
     <router-link to="/womenproducts">See more-></router-link>
   </div> 
     <div class="row">
@@ -87,7 +87,7 @@
         <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
       </div>
     </div>
-    <div id="seemore">
+    <div id="seemore" clas="container">
     <router-link to="/kidproducts">See more-></router-link>
   </div> 
   </div>
@@ -112,8 +112,9 @@
 }
 
 #mensclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #mensclothesc{

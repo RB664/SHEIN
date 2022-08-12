@@ -1,5 +1,6 @@
 <template>
     <Navigation/>
+
     <router-view/>
 
   <div class="container">
@@ -98,6 +99,11 @@
 </template>
 
 <style>
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
 #app {}
 
 #we-accept{

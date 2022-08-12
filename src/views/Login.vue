@@ -1,5 +1,6 @@
 <template>
 <div class="container">
+    <h1 id="headings">Login</h1>
     <form id="forml">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>

@@ -1,5 +1,6 @@
 <template>
     <div class="container">
+        <h1 id="headings">Register</h1>
         <form id="form">
             <div class="mb-3">
                 <label for="username">Username</label>

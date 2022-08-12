@@ -48,7 +48,7 @@
         <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
       </div>
     </div>
-    <div id="seemore">
+    <div id="seemore" class="container">
     <router-link to="/kidproducts">See more-></router-link>
   </div> 
   </div>
@@ -77,7 +77,6 @@
 }
 
 #kidclothesc{
-  margin-left: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -90,8 +89,11 @@
 }
 
 #seemore{
-  padding-left: 600px;
   margin-bottom: 30px;
   font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:  center;
 }
 </style> 

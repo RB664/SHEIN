@@ -79,6 +79,7 @@
 
 #headings{
   text-align: center;
+  margin-top: 10px;
 }
 #womensclothes{
   width: 250px;
@@ -93,7 +94,6 @@
 }
 
 #womensclothesc{
-  margin-left: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -129,8 +129,11 @@
 }
 
 #seemore{
-  padding-left: 600px;
   margin-bottom: 30px;
   font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:  center;
 }
 </style>
