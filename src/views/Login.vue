@@ -35,4 +35,104 @@
     margin-left: 65px;
 }
 
+@media only screen and (min-width:320px) and (max-width:321px) {
+    #forml{
+        margin-left: 0px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width:375px) and (max-width:376px) {
+    #forml{
+        margin-left: 30px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width:425px) and (max-width:426px) {
+    #forml{
+        margin-left: 60px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:769px) {
+    #forml{
+        margin-left: 200px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1025px) {
+    #forml{
+        margin-left: 320px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
 </style>

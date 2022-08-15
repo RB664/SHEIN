@@ -73,7 +73,7 @@
 <style>
 #carouselimg{
   width: 100%;
-  height: 600px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -84,7 +84,6 @@
 #womensclothes{
   width: 250px;
   height: 300px;
-  height: auto;
   object-fit: cover;
 }
 
@@ -101,7 +100,7 @@
 #womenposters{
   object-fit: cover;
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 #sheglam{
@@ -110,22 +109,22 @@
 
 #motf{
   border: 1px solid black;
-  height: 270px;
+  height: auto;
 }
 
 #romwe{
   border: 1px solid black;
-  height: 270px;
+  height: auto;
 }
 
 #emeryrose{
   border: 1px solid black;
-  height: 270px;
+  height: auto;
 }
 
 #dazy{
   border: 1px solid black;
-  height: 270px;
+  height: auto;
 }
 
 #seemore{

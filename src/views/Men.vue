@@ -56,7 +56,7 @@
 <style>
 #carouselimg{
   width: 100%;
-  height: 600px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -66,7 +66,6 @@
 #mensclothes{
   width: 250px;
   height: 300px;
-  height: auto;
   object-fit: cover;
 }
 
@@ -83,7 +82,7 @@
 #menposters{
   object-fit: cover;
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 
 #seemore{
@@ -94,4 +93,5 @@
   justify-content: center;
   float:  center;
 }
+
 </style>

@@ -96,7 +96,7 @@
 <style>
 #carouselimg1{
   width: 100%;
-  height: 500px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -118,7 +118,6 @@
 }
 
 #mensclothesc{
-  margin-left: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -135,7 +134,6 @@
 }
 
 #womensclothesc{
-  margin-left: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -152,9 +150,24 @@
 }
 
 #kidsclothesc{
-  margin-left: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  #carouselimg1{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  #seemore{
+    margin-bottom: 30px;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:  center;
+  }
 }
 </style>
 

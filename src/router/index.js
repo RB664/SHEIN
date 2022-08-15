@@ -23,9 +23,19 @@ const routes = [
     component: () => import('../views/Kids.vue')
   },
   {
+    path: '/userprofile',
+    name: 'profile',
+    component: () => import('../views/UserProfile.vue')
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('../views/Login.vue')
+  },
+  {
+    path: '/logout',
+    name: 'logout',
+    component: () => import('../views/Logout.vue')
   },
   {
     path: '/register',

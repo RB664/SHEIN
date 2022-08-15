@@ -9,7 +9,7 @@
         <div class="col-lg-6">
           <div class="row">
             <div class="col-md-4">
-            <strong>COMPANY INFO</strong>
+            <strong id="fh">COMPANY INFO</strong>
             <ul>
               <li id="flink" >About SHEIN</li>
               <li id="flink" >Affiliate</li>
@@ -17,7 +17,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <strong>HELP & SUPPORT</strong>
+            <strong id="fh">HELP & SUPPORT</strong>
             <ul>
               <li id="flink" >Shipping Info</li>
               <li id="flink" >Returns</li>
@@ -29,7 +29,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <strong>CUSTOMER CARE</strong>
+            <strong id="fh">CUSTOMER CARE</strong>
             <ul>
               <li id="flink" >Contact Us</li>
               <li id="flink" >Payment Method</li>
@@ -79,7 +79,7 @@
               <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
               <button  class="btn btn-outline-secondary" type="button" id="button-addon2">SUBSCRIBE</button>
             </div>
-            <strong>WE ACCEPT</strong>
+            <strong id="fh">WE ACCEPT</strong>
             <div>
             <img id="we-accept" src="https://i.postimg.cc/NMXX9kPc/visa-blue-gradient-800x450.jpg" alt="">
             <img id="we-accept" src="https://i.postimg.cc/bvtr3N00/Master-Card.png" alt="">
@@ -138,6 +138,59 @@
 
 #flinks{
   color: rgb(65, 65, 65);;
+}
+
+@media only screen and (min-width:300px) and (max-width:301px) {
+  #fh{
+    margin-left: 70px;
+  }
+  #flink{
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  #we-accept{
+    height: 35px;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:321px) {
+  #fh{
+    margin-left: 70px;
+  }
+  #flink{
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  #we-accept{
+    height: 35px;
+  }
+}
+@media only screen and (min-width:375px) and (max-width:376px) {
+  #fh{
+    margin-left: 110px;
+  }
+  #flink{
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  #we-accept{
+    height: 35px;
+  }
+}
+@media only screen and (min-width:425px) and (max-width:426px) {
+  #fh{
+  margin-left: 130px;
+  }
+  #flink{
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  #we-accept{
+    height: 35px;
+  }
 }
 </style>
 
