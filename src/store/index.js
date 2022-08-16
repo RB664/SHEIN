@@ -2,7 +2,8 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    products : null
+    products : null,
+    product : null
   },
   getters: {
   },
@@ -15,6 +16,14 @@ export default createStore({
       .then((data) => {
         context.state.products = data.products
         console.log(context.state.products)
+      })
+    },
+    getProduct : async (context, id) => {
+      fetch(`https://agsheinapi.herokuapp.com/products/${id}`)
+      .then((res) => res.json())
+      .then((data) => {
+        let {results} = data;
+        context.state.product = results[0];
       })
     }
   },

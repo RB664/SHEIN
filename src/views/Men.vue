@@ -30,30 +30,51 @@
       <h1 id="headings">Brands</h1>
       <img id="menposters" src="https://i.postimg.cc/fyLWTXKn/Mens-Page-2.webp" alt="">
     </div>
-    <div class="row">
-      <div id="mensclothesc1" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/hGNTWDb0/Mens-Clothes-1.png" alt="">
+
+    <h1 id="headings">Men</h1>
+    <div class="row" id="productsrow">
+      <div class="card">
+        <router-link to="/allproduct/40">
+          <img id="mensclothes" src="https://i.postimg.cc/KztZSxFX/ID-1.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/029mqHmh/Mens-Clothes-2.png" alt="">
-      </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/J0xsnMJv/Mens-Clothes-3.png" alt="">
-      </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/mkksYsJ0/Mens-Clothes-4.png" alt="">
-      </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/fRmhj5qT/Mens-Clothes-5.png" alt="">
-      </div>
+        <div class="card">
+          <router-link to="/allproduct/28">
+          <img id="mensclothes" src="https://i.postimg.cc/TPFrNq27/ID-15.webp" alt="">
+        </router-link>
+        </div>
+        <div class="card">
+          <router-link to="/allproduct/32">
+          <img id="mensclothes" src="https://i.postimg.cc/P5bzx84N/ID-10.webp" alt="">
+        </router-link>
+        </div>
+        <div class="card">
+          <router-link to="/allproduct/30">
+          <img id="mensclothes" src="https://i.postimg.cc/s2D6Ccr3/ID-13.webp" alt="">
+        </router-link>
+        </div>
+        <div class="card">
+          <router-link to="/allproduct/39">
+          <img id="mensclothes" src="https://i.postimg.cc/yxvCsNbG/ID-2.webp" alt="">
+        </router-link>
+        </div>
     </div>
   <div id="seemore" class="container">
-    <router-link to="/menproducts">See more-></router-link>
+    <router-link to="/allproducts">See more-></router-link>
   </div> 
   </div>
 </template>
 
-<style>
+<style scoped>
+#productsrow{
+  gap: 5px;
+}
+.card{
+  width: 260px;
+  height: 310px;
+  border: none;
+}
+
 #carouselimg{
   width: 100%;
   height: auto;
@@ -69,16 +90,6 @@
   object-fit: cover;
 }
 
-#mensclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#mensclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 #menposters{
   object-fit: cover;
   width: 100%;
@@ -89,9 +100,7 @@
   margin-bottom: 30px;
   font-size: x-large;
   display: flex;
-  align-items: center;
   justify-content: center;
-  float:  center;
 }
 
 </style>

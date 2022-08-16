@@ -30,31 +30,41 @@
       <h1 id="headings">Brands</h1>
       <img id="kidposters" src="https://i.postimg.cc/4x7jsD8w/Kid-page.png" alt="">
     </div>
-    <div class="row">
+    <div class="row" id="productsrow">
       <h1 id="headings">Kids</h1>
-      <div id="kidsclothesc1" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/TYwkY2WX/Kids-Clothes-1.png" alt="">
+      <div id="kidsclothesc" class="card">
+        <router-link to="/allproduct/8">
+          <img id="kidclothes" src="https://i.postimg.cc/YSCHDYDW/ID-9.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/0NgZfpX8/Kids-Clothes-2.png" alt="">
+      <div id="kidsclothesc" class="card">
+        <router-link to="/allproduct/5">
+          <img id="kidclothes" src="https://i.postimg.cc/GpWXT1Dm/ID-13.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/Wz473Sz7/Kids-Clothes-3.png" alt="">
+      <div id="kidsclothesc" class="card">
+        <router-link to="/allproduct/13">
+          <img id="kidclothes" src="https://i.postimg.cc/Vk3637MC/ID-2.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/HLC45Tjn/Kids-Clothes-4.png" alt="">
+      <div id="kidsclothesc" class="card">
+        <router-link to="/allproduct/7">
+          <img id="kidclothes" src="https://i.postimg.cc/2ypgYZGT/ID-11.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
+      <div id="kidsclothesc" class="card">
+        <router-link to="/allproduct/9">
+          <img id="kidclothes" src="https://i.postimg.cc/pVGPwGML/ID-6.webp" alt="">
+        </router-link>
       </div>
-    </div>
+    </div> 
     <div id="seemore" class="container">
-    <router-link to="/kidproducts">See more-></router-link>
+    <router-link to="/allproducts">See more-></router-link>
   </div> 
   </div>
 </template>
 
-<style>
+<style scoped>
 #carouselimg{
   width: 100%;
   height:auto;
@@ -71,14 +81,14 @@
   object-fit: cover;
 }
 
-#kidclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
+#productsrow{
+    gap: 5px;
 }
 
-#kidclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.card{
+  width: 260px;
+  height: 310px;
+  border: none;
 }
 
 #kidposters{
@@ -90,6 +100,7 @@
 
 #seemore{
   margin-bottom: 30px;
+  padding-top: 30px;
   font-size: x-large;
   display: flex;
   align-items: center;

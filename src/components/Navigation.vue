@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,9 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/kids">KIDS</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/allproducts">ALL PRODUCTS</router-link>
           </li>
         </ul>
       </div>

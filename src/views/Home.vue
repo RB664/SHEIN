@@ -27,73 +27,94 @@
   </button>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row" id="productsrow">
       <h1 id="headings">Men</h1>
-      <div id="mensclothesc1" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/hGNTWDb0/Mens-Clothes-1.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/40">
+          <img id="mensclothes" src="https://i.postimg.cc/KztZSxFX/ID-1.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/029mqHmh/Mens-Clothes-2.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/28">
+          <img id="mensclothes" src="https://i.postimg.cc/TPFrNq27/ID-15.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/J0xsnMJv/Mens-Clothes-3.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/32">
+          <img id="mensclothes" src="https://i.postimg.cc/P5bzx84N/ID-10.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/mkksYsJ0/Mens-Clothes-4.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/30">
+          <img id="mensclothes" src="https://i.postimg.cc/s2D6Ccr3/ID-13.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="mensclothes" src="https://i.postimg.cc/fRmhj5qT/Mens-Clothes-5.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/39">
+          <img id="mensclothes" src="https://i.postimg.cc/yxvCsNbG/ID-2.webp" alt="">
+        </router-link>
       </div>
-    </div>
-     <div id="seemore" class="container">
-    <router-link to="/menproducts">See more-></router-link>
-  </div> 
-    <div class="row">
+    </div> 
+    <div class="row" id="productsrow">
       <h1 id="headings">Women</h1>
-      <div id="womensclothesc1" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/MTM4TWLT/Womens-Clothes-1.png" alt="">
+      <div class="card" >
+        <router-link to="/allproduct/25">
+          <img id="womensclothes" src="https://i.postimg.cc/XvyHQvcb/ID-4.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/kXFHDYTx/Womens-Clothes-2.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/21">
+          <img id="womensclothes" src="https://i.postimg.cc/dtL88x9M/ID-8.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/fysKNDn1/Womens-Clothes-3.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/18">
+          <img id="womensclothes" src="https://i.postimg.cc/s2wXHVVT/ID-11.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/VvzjhgX8/Womens-Clothes-4.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/19">
+          <img id="womensclothes" src="https://i.postimg.cc/k4gV721r/ID-10.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/Xq2yzbVf/Womens-Clothes-5.png" alt="">
+      <div class="card">
+        <router-link to="allproduct/27">
+          <img id="womensclothes" src="https://i.postimg.cc/mk3KVr4D/ID-1.webp" alt="">
+        </router-link>
       </div>
-    </div>
-    <div id="seemore" clas="container">
-    <router-link to="/womenproducts">See more-></router-link>
-  </div> 
-    <div class="row">
+      </div> 
+    <div class="row" id="productsrow">
       <h1 id="headings">Kids</h1>
-      <div id="kidsclothesc1" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/TYwkY2WX/Kids-Clothes-1.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/8">
+          <img id="kidsclothes" src="https://i.postimg.cc/YSCHDYDW/ID-9.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/0NgZfpX8/Kids-Clothes-2.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/5">
+          <img id="kidsclothes" src="https://i.postimg.cc/GpWXT1Dm/ID-13.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/Wz473Sz7/Kids-Clothes-3.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/13">
+          <img id="kidsclothes" src="https://i.postimg.cc/Vk3637MC/ID-2.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/HLC45Tjn/Kids-Clothes-4.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/7">
+          <img id="kidsclothes" src="https://i.postimg.cc/2ypgYZGT/ID-11.webp" alt="">
+        </router-link>
       </div>
-      <div id="kidsclothesc" class="col-lg-2">
-        <img id="kidsclothes" src="https://i.postimg.cc/d3XG0Yzq/Kids-Clothes-5.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/9">
+          <img id="kidsclothes" src="https://i.postimg.cc/pVGPwGML/ID-6.webp" alt="">
+        </router-link>
       </div>
-    </div>
-    <div id="seemore" clas="container">
-    <router-link to="/kidproducts">See more-></router-link>
-  </div> 
+    </div> 
   </div>
 </template>
 
-<style>
+<style scoped>
 #carouselimg1{
   width: 100%;
   height: auto;
@@ -104,6 +125,18 @@
   text-align: center;
 }
 
+#productsrow{
+    gap: 5px;
+    margin-top:20px ;
+    margin-bottom: 30px;;
+}
+
+.card{
+  width: 260px;
+  height: 310px;
+  border: none;
+}
+
 #mensclothes{
   width: 250px;
   height: 300px;
@@ -111,16 +144,6 @@
   object-fit: cover;
 }
 
-#mensclothesc1{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#mensclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 #womensclothes{
   width: 250px;
   height: 300px;
@@ -128,15 +151,6 @@
   object-fit: cover;
 }
 
-#womensclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#womensclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 #kidsclothes{
   width: 250px;
   height: 300px;
@@ -144,35 +158,19 @@
   object-fit: cover;
 }
 
-#kidsclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#kidsclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 320px) {
-  #carouselimg1{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  #seemore{
-    margin-bottom: 30px;
-  font-size: x-large;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  float:  center;
-  }
-}
 </style>
 
 <script>
 export default {
-  name: 'home'
+    props: ['product_Id'],
+    computed: {
+        product() {
+            return this.$store.state.product
+        }
+    },
+    mounted() {
+        this.$store.dispatch("getProduct", this.$route.params.id)
+    },
 }
+
 </script>

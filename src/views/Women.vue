@@ -46,31 +46,41 @@
   
         <img id="dazy" src="https://i.postimg.cc/50M1F4Hs/Brand-5.png" alt="">
     </div>
-    <div class="row">
+    <div class="row" id="productsrow">
       <h1 id="headings">Women</h1>
-      <div id="womensclothesc1" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/MTM4TWLT/Womens-Clothes-1.png" alt="">
+      <div class="card" >
+        <router-link to="/allproduct/25">
+          <img id="womensclothes" src="https://i.postimg.cc/XvyHQvcb/ID-4.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/kXFHDYTx/Womens-Clothes-2.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/21">
+          <img id="womensclothes" src="https://i.postimg.cc/dtL88x9M/ID-8.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/fysKNDn1/Womens-Clothes-3.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/18">
+          <img id="womensclothes" src="https://i.postimg.cc/s2wXHVVT/ID-11.webp" alt="">
+        </router-link>
       </div>
-      <div id="womensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/VvzjhgX8/Womens-Clothes-4.png" alt="">
+      <div class="card">
+        <router-link to="/allproduct/19">
+          <img id="womensclothes" src="https://i.postimg.cc/k4gV721r/ID-10.webp" alt="">
+        </router-link>
       </div>
-      <div id="mensclothesc" class="col-lg-2">
-        <img id="womensclothes" src="https://i.postimg.cc/Xq2yzbVf/Womens-Clothes-5.png" alt="">
+      <div class="card">
+        <router-link to="allproduct/27">
+          <img id="womensclothes" src="https://i.postimg.cc/mk3KVr4D/ID-1.webp" alt="">
+        </router-link>
       </div>
-    </div>
+      </div> 
     <div id="seemore">
-    <router-link to="/womenproducts">See more-></router-link>
+    <router-link to="/allproducts">See more-></router-link>
   </div> 
   </div>
 </template>
 
-<style>
+<style scoped>
 #carouselimg{
   width: 100%;
   height: auto;
@@ -87,14 +97,14 @@
   object-fit: cover;
 }
 
-#womensclothesc1{
-  margin-top: 20px;
-  margin-bottom: 20px;
+#productsrow{
+    gap: 5px;
 }
 
-#womensclothesc{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.card{
+  width: 260px;
+  height: 310px;
+  border: none;
 }
 
 #womenposters{

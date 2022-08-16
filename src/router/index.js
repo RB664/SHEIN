@@ -48,24 +48,15 @@ const routes = [
     component: () => import('../views/Bag.vue')
   },
   {
-    path: '/menproducts',
-    name: 'menproducts',
-    component: () => import('../views/MenProducts.vue')
+    path: '/allproducts',
+    name: 'allproducts',
+    component: () => import('../views/AllProducts.vue')
   },
   {
-    path: '/womenproducts',
-    name: 'womanproducts',
-    component: () => import('../views/WomenProducts.vue')
-  },
-  {
-    path: '/kidproducts',
-    name: 'kidproducts',
-    component: () => import('../views/KidProducts.vue')
-  },
-  {
-    path: '/singleproduct',
+    path: '/allproduct/:id',
     name: 'singleproduct',
-    component: () => import('../views/SingleProduct.vue')
+    component: () => import('../views/SingleProduct.vue'),
+    props: true
   },
 ]
 
