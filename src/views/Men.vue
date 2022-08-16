@@ -68,6 +68,7 @@
 <style scoped>
 #productsrow{
   gap: 5px;
+  justify-content: center;
 }
 .card{
   width: 260px;

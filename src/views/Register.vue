@@ -55,6 +55,25 @@
     text-align: center;
 }
 
+@media only screen and (min-width:300px) and (max-width:301px) {
+    #form{
+        margin-left: 0px;
+        width: 300px;
+    }
+    #usernameinput{
+    width: 280px;
+    margin-left: 0px;
+}
+#exampleInputEmail1{
+    width: 280px;
+    margin-left: 0px;
+}
+
+#exampleInputPassword1{
+    width: 280px;
+    margin-left: 0px;
+}
+}
 @media only screen and (min-width:320px) and (max-width:321px) {
     #form{
         margin-left: 0px;

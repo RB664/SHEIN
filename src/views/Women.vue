@@ -99,6 +99,7 @@
 
 #productsrow{
     gap: 5px;
+    justify-content: center;
 }
 
 .card{

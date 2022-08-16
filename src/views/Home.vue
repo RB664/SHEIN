@@ -127,6 +127,7 @@
 
 #productsrow{
     gap: 5px;
+    justify-content: center;
     margin-top:20px ;
     margin-bottom: 30px;;
 }
